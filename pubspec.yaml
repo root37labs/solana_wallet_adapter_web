@@ -20,8 +20,8 @@ dependencies:
     # path: ../solana_common
   solana_jsonrpc:
     git: https://github.com/root37labs/solana_jsonrpc
-  solana_wallet_adapter_platform_interface: ^0.0.6
-    # path: ../solana_wallet_adapter_platform_interface
+  solana_wallet_adapter_platform_interface:
+    git: https://github.com/root37labs/solana_wallet_adapter_platform_interface
   solana_web3:
     git: https://github.com/root37labs/solana_web3.git
 
