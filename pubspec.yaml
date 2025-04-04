@@ -16,14 +16,14 @@ dependencies:
   
   js: ^0.6.5
 
-  solana_common: ^0.1.0+1
+  solana_common: ^0.1.0
     # path: ../solana_common
-  solana_jsonrpc: ^0.0.1
-    # path: ../solana_jsonrpc
+  solana_jsonrpc:
+    git: https://github.com/root37labs/solana_jsonrpc
   solana_wallet_adapter_platform_interface: ^0.0.6
     # path: ../solana_wallet_adapter_platform_interface
-  solana_web3: ^0.1.2
-    # path: ../solana_web3
+  solana_web3:
+    git: https://github.com/root37labs/solana_web3.git
 
 dev_dependencies:
   flutter_test:
